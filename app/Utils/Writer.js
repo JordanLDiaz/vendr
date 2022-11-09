@@ -18,5 +18,6 @@ export function setHTML(id, html) {
 }
 
 export function setText(id, text) {
+  // @ts-ignore
   getElem(id).innerText = text
 }

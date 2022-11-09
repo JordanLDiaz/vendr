@@ -29,7 +29,12 @@
 
   <main>
     <div class="container-fluid">
-      <!-- SECTION Vending Machine w/snacks -->
+      <!-- SECTION Snacks list -->
+      <section id="snacks" class="row text-center justify-content-center">
+        <!-- SECTION Snacks template -->
+        <!-- <h3 class="col-2 p-2 selectable" title="Goldfish">🐠</h3>
+        <h4 class="p-2 text-center">Price: $<span>3.00</span></h4> -->
+      </section>
 
       <!-- SECTION active snacks -->
 
@@ -38,7 +43,10 @@
         <button class="col-4 m-3 btn btn-outline-success" onclick="app.moniesController.addMoney()"> Get
           Money 💰
         </button>
-        <div class="col-4 text-center" id="money"></div>
+        <div class="col-4 m-3 card text-center">
+          <h4>Total Snack Money</h4>
+          <div class="col-4 text-center" id="money"></div>
+        </div>
       </div>
 
       <!-- SECTION MY snack pile -->
